@@ -13,5 +13,29 @@ module.exports = {
         ios: null,
       },
     },
+    '@mauron85/react-native-background-geolocation': {
+      platforms: {
+        android: null,
+        ios: null,
+      },
+    },
+    // '@react-native-community/async-storage': {
+    //   platforms: {
+    //     android: null,
+    //     ios: null,
+    //   },
+    // },
+    // '@react-native-community/geolocation': {
+    //   platforms: {
+    //     android: null,
+    //     ios: null,
+    //   },
+    // },
+    // 'react-native-background-fetch': {
+    //   platforms: {
+    //     android: null,
+    //     ios: null,
+    //   },
+    // },
   },
 };
