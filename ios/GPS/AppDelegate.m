@@ -18,8 +18,6 @@
 #import <MAURBackgroundGeolocationFacade.h>
 #import <COVIDSafePaths-Swift.h>
 
-
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
