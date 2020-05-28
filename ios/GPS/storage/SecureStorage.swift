@@ -8,6 +8,7 @@
 
 import Foundation
 import RealmSwift
+import MAURLocation
 
 class SecureStorage: NSObject {
   

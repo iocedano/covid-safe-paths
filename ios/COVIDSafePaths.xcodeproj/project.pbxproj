@@ -109,6 +109,7 @@
 		C5C850C7248014F700A494CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C850C6248014F700A494CA /* main.m */; };
 		C5C850CA2480156200A494CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C850C92480156200A494CA /* AppDelegate.m */; };
 		C5C850D22480229B00A494CA /* Tmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C850D12480229B00A494CA /* Tmp.swift */; };
+		C5C850E424804A5200A494CA /* libBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C850E324804A5200A494CA /* libBackgroundGeolocation.a */; };
 		D43E27B6F1E045D798270A11 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4904B061CC24439783E20928 /* IBMPlexSans-SemiBold.ttf */; };
 		D668C3DAB08B4FCBB01E8C2D /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C8EDCCEFCE4874A747E404 /* IBMPlexMono-Light.ttf */; };
 		D7E714F18C9C4172BC01ADF8 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF6254720C1D4A3288ECE351 /* IBMPlexMono-SemiBold.ttf */; };
@@ -142,6 +143,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = C53FD07D24719AD1006D3268;
 			remoteInfo = BTE;
+		};
+		C5C850E024804A0300A494CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C850DC24804A0300A494CA /* RCTBackgroundGeolocation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 418F75461D02DC3D0045FEA0;
+			remoteInfo = RCTBackgroundGeolocation;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -279,6 +287,8 @@
 		C5C850C6248014F700A494CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5C850C92480156200A494CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		C5C850D12480229B00A494CA /* Tmp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tmp.swift; sourceTree = SOURCE_ROOT; };
+		C5C850DC24804A0300A494CA /* RCTBackgroundGeolocation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBackgroundGeolocation.xcodeproj; path = "../node_modules/@mauron85/react-native-background-geolocation/ios/RCTBackgroundGeolocation.xcodeproj"; sourceTree = "<group>"; };
+		C5C850E324804A5200A494CA /* libBackgroundGeolocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBackgroundGeolocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CAF9029B3AE69C411463F3 /* Pods-COVIDSafePathsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVIDSafePathsTests.debug.xcconfig"; path = "Target Support Files/Pods-COVIDSafePathsTests/Pods-COVIDSafePathsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C6CBA4DBBF104AC1AB920555 /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-BoldItalic.ttf"; path = "../shared/assets/fonts/IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		C840FB7884D64E6FA97ECC2C /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Medium.ttf"; path = "../app/assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
@@ -339,6 +349,7 @@
 				08445F50242849C1008754AC /* CoreGraphics.framework in Frameworks */,
 				08445F4E24283B0B008754AC /* CoreData.framework in Frameworks */,
 				08445F4C24283AFF008754AC /* Accelerate.framework in Frameworks */,
+				C5C850E424804A5200A494CA /* libBackgroundGeolocation.a in Frameworks */,
 				A49C8C752B3AA7ABB92618E3 /* libPods-GPS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +542,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5C850E324804A5200A494CA /* libBackgroundGeolocation.a */,
 				08445F6724284A52008754AC /* UIKit.framework */,
 				08445F6524284A42008754AC /* SystemConfiguration.framework */,
 				08445F6324284A36008754AC /* QuartzCore.framework */,
@@ -569,6 +581,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				C5C850DC24804A0300A494CA /* RCTBackgroundGeolocation.xcodeproj */,
 				2E9077612439A903005C98DE /* SplashScreen.xcodeproj */,
 			);
 			name = Libraries;
@@ -631,6 +644,14 @@
 				C5850A63247D5A41007A596B /* Images.xcassets */,
 			);
 			path = BTE;
+			sourceTree = "<group>";
+		};
+		C5C850DD24804A0300A494CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5C850E124804A0300A494CA /* libRCTBackgroundGeolocation.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -769,6 +790,10 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = C5C850DD24804A0300A494CA /* Products */;
+					ProjectRef = C5C850DC24804A0300A494CA /* RCTBackgroundGeolocation.xcodeproj */;
+				},
+				{
 					ProductGroup = 2E9077622439A903005C98DE /* Products */;
 					ProjectRef = 2E9077612439A903005C98DE /* SplashScreen.xcodeproj */;
 				},
@@ -789,6 +814,13 @@
 			fileType = archive.ar;
 			path = libSplashScreen.a;
 			remoteRef = 2E9077652439A903005C98DE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C5C850E124804A0300A494CA /* libRCTBackgroundGeolocation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTBackgroundGeolocation.a;
+			remoteRef = C5C850E024804A0300A494CA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1240,6 +1272,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1336,6 +1369,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1486,6 +1520,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1665,6 +1700,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
+					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
