@@ -110,7 +110,6 @@
 		C5C850CA2480156200A494CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C850C92480156200A494CA /* AppDelegate.m */; };
 		C5C850D22480229B00A494CA /* Tmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C850D12480229B00A494CA /* Tmp.swift */; };
 		C5C850F72481238E00A494CA /* libRCTBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C850E124804A0300A494CA /* libRCTBackgroundGeolocation.a */; };
-		C5C850F9248125A800A494CA /* libBackgroundGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C850F8248125A800A494CA /* libBackgroundGeolocation.a */; };
 		D43E27B6F1E045D798270A11 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4904B061CC24439783E20928 /* IBMPlexSans-SemiBold.ttf */; };
 		D668C3DAB08B4FCBB01E8C2D /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C8EDCCEFCE4874A747E404 /* IBMPlexMono-Light.ttf */; };
 		D7E714F18C9C4172BC01ADF8 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF6254720C1D4A3288ECE351 /* IBMPlexMono-SemiBold.ttf */; };
@@ -186,7 +185,7 @@
 		0DC95F63E93B2BB75824CCB3 /* libPods-BTETests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTETests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DD29292C60B45029B7823D6 /* IBMPlexSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-ExtraLight.ttf"; path = "../app/assets/fonts/IBMPlexSans-ExtraLight.ttf"; sourceTree = "<group>"; };
 		1360DEA45F2DC8248DFD3B91 /* Pods-BTETests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTETests.beta.xcconfig"; path = "Target Support Files/Pods-BTETests/Pods-BTETests.beta.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PathCheckGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathCheckGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* GPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = COVIDSafePaths/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -278,7 +277,7 @@
 		B3D0B8224679467D85423742 /* IBMPlexMono-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Italic.ttf"; path = "../app/assets/fonts/IBMPlexMono-Italic.ttf"; sourceTree = "<group>"; };
 		BF6254720C1D4A3288ECE351 /* IBMPlexMono-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-SemiBold.ttf"; path = "../shared/assets/fonts/IBMPlexMono-SemiBold.ttf"; sourceTree = "<group>"; };
 		C42F32AF52974EE8ADEE67B5 /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Medium.ttf"; path = "../shared/assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
-		C53FD0C124719AD1006D3268 /* PathCheckBT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PathCheckBT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C53FD0C124719AD1006D3268 /* BTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53FD0C224719AD2006D3268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C53FD116247454EA006D3268 /* COVIDSafePaths.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = COVIDSafePaths.entitlements; path = BTE/COVIDSafePaths.entitlements; sourceTree = "<group>"; };
 		C5850A63247D5A41007A596B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -351,7 +350,6 @@
 				08445F50242849C1008754AC /* CoreGraphics.framework in Frameworks */,
 				08445F4E24283B0B008754AC /* CoreData.framework in Frameworks */,
 				08445F4C24283AFF008754AC /* Accelerate.framework in Frameworks */,
-				C5C850F9248125A800A494CA /* libBackgroundGeolocation.a in Frameworks */,
 				C5C850F72481238E00A494CA /* libRCTBackgroundGeolocation.a in Frameworks */,
 				A49C8C752B3AA7ABB92618E3 /* libPods-GPS.a in Frameworks */,
 			);
@@ -515,7 +513,6 @@
 				C53FD0C324719C25006D3268 /* BTE */,
 				C53FD07C247199A4006D3268 /* GPS */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				C5C850FB24812AAB00A494CA /* GPS-Bridging-Header.h */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				B2A58212244CE76C000F39A6 /* Localizable.strings */,
@@ -615,9 +612,9 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PathCheckGPS.app */,
+				13B07F961A680F5B00A75B9A /* GPS.app */,
 				00E356EE1AD99517003FC87E /* GPSTests.xctest */,
-				C53FD0C124719AD1006D3268 /* PathCheckBT.app */,
+				C53FD0C124719AD1006D3268 /* BTE.app */,
 				C5AA24E124768FFF00BA0A99 /* BTETests.xctest */,
 			);
 			name = Products;
@@ -634,6 +631,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				C5C850FB24812AAB00A494CA /* GPS-Bridging-Header.h */,
 			);
 			path = GPS;
 			sourceTree = "<group>";
@@ -697,7 +695,7 @@
 			);
 			name = GPS;
 			productName = COVIDSafePaths;
-			productReference = 13B07F961A680F5B00A75B9A /* PathCheckGPS.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* GPS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C53FD07D24719AD1006D3268 /* BTE */ = {
@@ -717,7 +715,7 @@
 			);
 			name = BTE;
 			productName = COVIDSafePaths;
-			productReference = C53FD0C124719AD1006D3268 /* PathCheckBT.app */;
+			productReference = C53FD0C124719AD1006D3268 /* BTE.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C5AA24D124768FFF00BA0A99 /* BTETests */ = {
@@ -1268,15 +1266,10 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Maps/Frameworks",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
-					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
+					"$(SRCROOT)/../node_modules/@mauron85/react-native-background-geolocation/ios/common/BackgroundGeolocation",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1285,12 +1278,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
@@ -1299,7 +1290,6 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -1342,11 +1332,10 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pathcheck.covid-safepaths";
-				PRODUCT_NAME = PathCheckGPS;
+				PRODUCT_NAME = GPS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "GPS-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GPS-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GPS/GPS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1365,15 +1354,10 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = "";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Maps/Frameworks",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
-					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
+					"$(SRCROOT)/../node_modules/@mauron85/react-native-background-geolocation/ios/common/BackgroundGeolocation",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1382,12 +1366,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
@@ -1396,7 +1378,6 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -1439,11 +1420,10 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pathcheck.covid-safepaths";
-				PRODUCT_NAME = PathCheckGPS;
+				PRODUCT_NAME = GPS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "GPS-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GPS-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GPS/GPS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1516,15 +1496,10 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Maps/Frameworks",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
-					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
+					"$(SRCROOT)/../node_modules/@mauron85/react-native-background-geolocation/ios/common/BackgroundGeolocation",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1533,12 +1508,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
@@ -1547,7 +1520,6 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -1590,11 +1562,10 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pathcheck.covid-safepaths";
-				PRODUCT_NAME = PathCheckGPS;
+				PRODUCT_NAME = GPS;
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc org.pathcheck.covid-safepaths";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "GPS-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GPS-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GPS/GPS-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1696,15 +1667,10 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Maps/Frameworks",
-				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
-					"$(SRCROOT)/../node_modules/node_modules/@mauron85/react-native-background-geolocation/ios",
+					"$(SRCROOT)/../node_modules/@mauron85/react-native-background-geolocation/ios/common/BackgroundGeolocation",
 				);
 				INFOPLIST_FILE = GPS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1713,12 +1679,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-LocationAlways\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Permission-Notifications\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
@@ -1727,7 +1691,6 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -1770,11 +1733,10 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pathcheck.covid-safepaths";
-				PRODUCT_NAME = PathCheckGPS;
+				PRODUCT_NAME = GPS;
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc org.pathcheck.covid-safepaths";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "GPS-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "GPS-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "GPS/GPS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -1994,7 +1956,7 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pathcheck.bt;
-				PRODUCT_NAME = PathCheckBT;
+				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
 				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
@@ -2085,7 +2047,7 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pathcheck.bt;
-				PRODUCT_NAME = PathCheckBT;
+				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
 				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
@@ -2176,7 +2138,7 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pathcheck.bt;
-				PRODUCT_NAME = PathCheckBT;
+				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
 				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
@@ -2266,7 +2228,7 @@
 				);
 				PRIVATE_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/PrivateHeaders";
 				PRODUCT_BUNDLE_IDENTIFIER = org.pathcheck.bt;
-				PRODUCT_NAME = PathCheckBT;
+				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
 				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
