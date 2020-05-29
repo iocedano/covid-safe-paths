@@ -16,7 +16,7 @@
 #import <TSBackgroundFetch/TSBackgroundFetch.h>
 #import <MAURLocation.h>
 #import <MAURBackgroundGeolocationFacade.h>
-#import <COVIDSafePaths-Swift.h>
+#import <GPS-Swift.h>
 
 @implementation AppDelegate
 
