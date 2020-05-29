@@ -52,7 +52,13 @@ export const ExportScreen = ({ navigation }) => {
       let unixtimeUTC = Date.parse(nowUTC);
 
       let options = {};
-      let jsonData = JSON.stringify(locationData);
+      let jsonData = JSON.stringify(
+        locationData.map(({ latitude, longitude, time }) => ({
+          latitude,
+          longitude,
+          time,
+        })),
+      );
       const title = 'COVIDSafePaths.json';
       const filename = unixtimeUTC + '.json';
       const message = 'Here is my location log from COVID Safe Paths.';
