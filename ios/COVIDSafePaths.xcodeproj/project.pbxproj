@@ -47,6 +47,11 @@
 		57693D8BEF8A40C289F7168A /* IBMPlexSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A582C62ABAC478BBD976037 /* IBMPlexSans-ExtraLightItalic.ttf */; };
 		626DB8AB8AF9D02B9E411601 /* libPods-BTE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FB16255EA745CC27C638A1 /* libPods-BTE.a */; };
 		6858E21561F14E61A6A85280 /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747AA5DBBC684319A8273F2C /* IBMPlexSans-SemiBoldItalic.ttf */; };
+		688D1F3D24858B7900AD21AE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
+		688D1F3F24858B7900AD21AE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
+		68AD526024857AF900D40926 /* MARULocation+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971724809F5C0091A254 /* MARULocation+ExtensionTests.swift */; };
+		68AD526224857AFC00D40926 /* GeohashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971924809F9C0091A254 /* GeohashTests.swift */; };
+		68AD526324857AFE00D40926 /* Array+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971B24809FB50091A254 /* Array+ExtensionTests.swift */; };
 		68D8970624809AA50091A254 /* Scrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 68D8970524809AA50091A254 /* Scrypt */; };
 		68D8970C24809B4E0091A254 /* MAURLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8970B24809B4E0091A254 /* MAURLocation+Extension.swift */; };
 		68D8970D24809B4E0091A254 /* MAURLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8970B24809B4E0091A254 /* MAURLocation+Extension.swift */; };
@@ -59,6 +64,11 @@
 		68D8971824809F5C0091A254 /* MARULocation+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971724809F5C0091A254 /* MARULocation+ExtensionTests.swift */; };
 		68D8971A24809F9C0091A254 /* GeohashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971924809F9C0091A254 /* GeohashTests.swift */; };
 		68D8971C24809FB50091A254 /* Array+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971B24809FB50091A254 /* Array+ExtensionTests.swift */; };
+		68EFB21124856DD6003D84F3 /* Geohash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8970E24809CEB0091A254 /* Geohash.swift */; };
+		68EFB21324856EC6003D84F3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		68EFB215248570C2003D84F3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
+		68EFB216248570C2003D84F3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
+		68EFB21824857A3D003D84F3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		7A2281C376904F23BCA10FCA /* IBMPlexSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89D241005D9647C4B0586127 /* IBMPlexSans.ttf */; };
 		8A5B44AA7D724388B70F100B /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B22BAB357B44949D2E168C /* IBMPlexSans-ExtraLight.ttf */; };
 		8CB0C49FEC0F493D95420B30 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3053DF05D78949A09366B85D /* IBMPlexMono-ExtraLight.ttf */; };
@@ -246,6 +256,7 @@
 		68D8971724809F5C0091A254 /* MARULocation+ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MARULocation+ExtensionTests.swift"; sourceTree = "<group>"; };
 		68D8971924809F9C0091A254 /* GeohashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeohashTests.swift; sourceTree = "<group>"; };
 		68D8971B24809FB50091A254 /* Array+ExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ExtensionTests.swift"; sourceTree = "<group>"; };
+		68EFB214248570C2003D84F3 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		6BA94CE8425944B8990A49B3 /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Bold.ttf"; path = "../app/assets/fonts/IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
 		6C8CF282C4264C88A4ED8ABF /* IBMPlexMono-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-Medium.ttf"; path = "../shared/assets/fonts/IBMPlexMono-Medium.ttf"; sourceTree = "<group>"; };
 		71D1C872DB0CCC3BBC3D907E /* Pods-COVIDSafePaths.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVIDSafePaths.debug.xcconfig"; path = "Target Support Files/Pods-COVIDSafePaths/Pods-COVIDSafePaths.debug.xcconfig"; sourceTree = "<group>"; };
@@ -389,6 +400,7 @@
 				C53FD09724719AD1006D3268 /* CoreGraphics.framework in Frameworks */,
 				C53FD09824719AD1006D3268 /* CoreData.framework in Frameworks */,
 				C53FD09924719AD1006D3268 /* Accelerate.framework in Frameworks */,
+				68EFB21324856EC6003D84F3 /* (null) in Frameworks */,
 				626DB8AB8AF9D02B9E411601 /* libPods-BTE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +409,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EFB21824857A3D003D84F3 /* (null) in Frameworks */,
 				DC5AA89EE2128B33D9D6BE1F /* libPods-BTETests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -528,12 +541,12 @@
 		13B07FAE1A68108700A75B9A /* COVIDSafePaths */ = {
 			isa = PBXGroup;
 			children = (
-				68D8970A24809B2D0091A254 /* Extension */,
 				C53FD0C324719C25006D3268 /* BTE */,
 				C53FD07C247199A4006D3268 /* GPS */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				68EFB214248570C2003D84F3 /* Log.swift */,
 				B2A58212244CE76C000F39A6 /* Localizable.strings */,
 			);
 			name = COVIDSafePaths;
@@ -653,6 +666,7 @@
 		C53FD07C247199A4006D3268 /* GPS */ = {
 			isa = PBXGroup;
 			children = (
+				68D8970A24809B2D0091A254 /* Extension */,
 				276F786C245B6CB400312927 /* storage */,
 				276F786A245B6C8A00312927 /* bridge */,
 				0835F8902441054900E95AE3 /* RNBackgroundFetch+AppDelegate.m */,
@@ -749,6 +763,8 @@
 			dependencies = (
 			);
 			name = BTE;
+			packageProductDependencies = (
+			);
 			productName = COVIDSafePaths;
 			productReference = C53FD0C124719AD1006D3268 /* BTE.app */;
 			productType = "com.apple.product-type.application";
@@ -768,6 +784,8 @@
 				C5AA24E42476901700BA0A99 /* PBXTargetDependency */,
 			);
 			name = BTETests;
+			packageProductDependencies = (
+			);
 			productName = COVIDSafePathsTests;
 			productReference = C5AA24E124768FFF00BA0A99 /* BTETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -1121,6 +1139,7 @@
 			files = (
 				271881C32461BF19001DE067 /* RealmSecureStorageTest.swift in Sources */,
 				68D8971624809E4B0091A254 /* String+Extension.swift in Sources */,
+				688D1F3F24858B7900AD21AE /* Log.swift in Sources */,
 				68D8970D24809B4E0091A254 /* MAURLocation+Extension.swift in Sources */,
 				68D8971024809CEB0091A254 /* Geohash.swift in Sources */,
 				68D8971324809DAE0091A254 /* Array+Extension.swift in Sources */,
@@ -1138,6 +1157,7 @@
 			files = (
 				271881C02461AF76001DE067 /* RealmSecureStorage.swift in Sources */,
 				0835F8922441054A00E95AE3 /* RNBackgroundFetch+AppDelegate.m in Sources */,
+				68EFB215248570C2003D84F3 /* Log.swift in Sources */,
 				68D8971224809DAE0091A254 /* Array+Extension.swift in Sources */,
 				68D8970F24809CEB0091A254 /* Geohash.swift in Sources */,
 				27F931572459E28800E1024C /* SecureStorageManager.m in Sources */,
@@ -1157,6 +1177,8 @@
 			files = (
 				C5C850CA2480156200A494CA /* AppDelegate.m in Sources */,
 				C5C850C7248014F700A494CA /* main.m in Sources */,
+				68EFB216248570C2003D84F3 /* Log.swift in Sources */,
+				68EFB21124856DD6003D84F3 /* Geohash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1164,7 +1186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				688D1F3D24858B7900AD21AE /* Log.swift in Sources */,
+				68AD526224857AFC00D40926 /* GeohashTests.swift in Sources */,
+				68AD526324857AFE00D40926 /* Array+ExtensionTests.swift in Sources */,
 				C5AA24D824768FFF00BA0A99 /* COVIDSafePathsTests.m in Sources */,
+				68AD526024857AF900D40926 /* MARULocation+ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
