@@ -21,8 +21,6 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - Permission-LocationAlways (2.1.5):
-    - RNPermissions
   - Permission-Notifications (2.1.5):
     - RNPermissions
   - RCTRequired (0.61.5)
@@ -248,6 +246,8 @@ PODS:
     - React-Core
   - RNBackgroundFetch (3.0.4):
     - React
+  - RNCAsyncStorage (1.10.0):
+    - React
   - RNCMaskedView (0.1.5):
     - React
   - RNCPushNotificationIOS (1.2.0):
@@ -283,7 +283,6 @@ DEPENDENCIES:
   - FBReactNativeSpec (from `../node_modules/react-native/Libraries/FBReactNativeSpec`)
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - Permission-LocationAlways (from `../node_modules/react-native-permissions/ios/LocationAlways.podspec`)
   - Permission-Notifications (from `../node_modules/react-native-permissions/ios/Notifications.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
   - RCTTypeSafety (from `../node_modules/react-native/Libraries/TypeSafety`)
@@ -319,6 +318,7 @@ DEPENDENCIES:
   - RealmSwift
   - rn-fetch-blob (from `../node_modules/rn-fetch-blob`)
   - RNBackgroundFetch (from `../node_modules/react-native-background-fetch`)
+  - "RNCAsyncStorage (from `../node_modules/@react-native-community/async-storage`)"
   - "RNCMaskedView (from `../node_modules/@react-native-community/masked-view`)"
   - "RNCPushNotificationIOS (from `../node_modules/@react-native-community/push-notification-ios`)"
   - RNFS (from `../node_modules/react-native-fs`)
@@ -351,8 +351,6 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
-  Permission-LocationAlways:
-    :path: "../node_modules/react-native-permissions/ios/LocationAlways.podspec"
   Permission-Notifications:
     :path: "../node_modules/react-native-permissions/ios/Notifications.podspec"
   RCTRequired:
@@ -413,6 +411,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/rn-fetch-blob"
   RNBackgroundFetch:
     :path: "../node_modules/react-native-background-fetch"
+  RNCAsyncStorage:
+    :path: "../node_modules/@react-native-community/async-storage"
   RNCMaskedView:
     :path: "../node_modules/@react-native-community/masked-view"
   RNCPushNotificationIOS:
@@ -444,7 +444,6 @@ SPEC CHECKSUMS:
   FBReactNativeSpec: 118d0d177724c2d67f08a59136eb29ef5943ec75
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  Permission-LocationAlways: 155e6251b757b380f6354737cae8e8d59c472495
   Permission-Notifications: 231d0e1db2300b686548587d384ba414e6a93332
   RCTRequired: b153add4da6e7dbc44aebf93f3cf4fcae392ddf1
   RCTTypeSafety: 9aa1b91d7f9310fc6eadc3cf95126ffe818af320
@@ -477,6 +476,7 @@ SPEC CHECKSUMS:
   RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNBackgroundFetch: 388cf1595934d22fed275b8db9b48a28bb4eb7b6
+  RNCAsyncStorage: 6d99641f8e6f15d169d695d8ef184bf187903f11
   RNCMaskedView: dd13f9f7b146a9ad82f9b7eb6c9b5548fcf6e990
   RNCPushNotificationIOS: 4d9ffd08f00ef6c1029ebbf4d72fc711eca3ff01
   RNFS: 2bd9eb49dc82fa9676382f0585b992c424cd59df
@@ -490,6 +490,6 @@ SPEC CHECKSUMS:
   SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
-PODFILE CHECKSUM: 9c4a2ca193a749da4a9102a304158cc6771a2f56
+PODFILE CHECKSUM: f3b5b2af65c12c35dea99e3b7be842b283b8f3f9
 
 COCOAPODS: 1.9.1
