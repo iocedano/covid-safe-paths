@@ -280,6 +280,7 @@
 		C53FD0C124719AD1006D3268 /* BTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C53FD0C224719AD2006D3268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C53FD116247454EA006D3268 /* COVIDSafePaths.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = COVIDSafePaths.entitlements; path = BTE/COVIDSafePaths.entitlements; sourceTree = "<group>"; };
+		C56190A12485332E009A6756 /* BTE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTE-Bridging-Header.h"; sourceTree = "<group>"; };
 		C5850A63247D5A41007A596B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C5AA24E124768FFF00BA0A99 /* BTETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5AA24E224768FFF00BA0A99 /* BTETestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = BTETestsInfo.plist; path = "/Users/johnschoeman/workspace/thoughtbot/covid-safe-paths/ios/BTETestsInfo.plist"; sourceTree = "<absolute>"; };
@@ -644,6 +645,7 @@
 				C5C850C6248014F700A494CA /* main.m */,
 				C53FD0C224719AD2006D3268 /* Info.plist */,
 				C5850A63247D5A41007A596B /* Images.xcassets */,
+				C56190A12485332E009A6756 /* BTE-Bridging-Header.h */,
 			);
 			path = BTE;
 			sourceTree = "<group>";
@@ -1889,7 +1891,6 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
@@ -1901,19 +1902,16 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -1959,8 +1957,7 @@
 				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BTE/BTE-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1980,7 +1977,6 @@
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
@@ -1992,19 +1988,16 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -2050,8 +2043,7 @@
 				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BTE/BTE-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2071,7 +2063,6 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
@@ -2083,19 +2074,16 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -2141,8 +2129,7 @@
 				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BTE/BTE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -2161,7 +2148,6 @@
 				DEAD_CODE_STRIPPING = YES;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-splash-screen/ios",
@@ -2173,19 +2159,16 @@
 				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/@mauron85_react-native-background-geolocation\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/BVLinearGradient\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/Folly\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/Google-Maps-iOS-Utils\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCMaskedView\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCPushNotificationIOS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler\"",
-					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNI18n\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNPermissions\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNReanimated\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG\"",
@@ -2231,8 +2214,7 @@
 				PRODUCT_NAME = BTE;
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore org.pathcheck.bt";
 				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}.app/Headers";
-				SWIFT_OBJC_BRIDGING_HEADER = "COVIDSafePaths-Bridging-Header.h";
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "BTE/BTE-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
