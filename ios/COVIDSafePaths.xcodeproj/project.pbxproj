@@ -29,7 +29,6 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		25004E4C90704C6B807B88C7 /* IBMPlexMono-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71F26FBF5BDA423184286546 /* IBMPlexMono-MediumItalic.ttf */; };
 		2606D1B2B11C4D419867361F /* IBMPlexSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A57577D96B89452694B53982 /* IBMPlexSans-MediumItalic.ttf */; };
 		271089B024698720009AC76F /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271089AF24698720009AC76F /* LocationTests.swift */; };
@@ -47,11 +46,8 @@
 		57693D8BEF8A40C289F7168A /* IBMPlexSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A582C62ABAC478BBD976037 /* IBMPlexSans-ExtraLightItalic.ttf */; };
 		626DB8AB8AF9D02B9E411601 /* libPods-BTE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48FB16255EA745CC27C638A1 /* libPods-BTE.a */; };
 		6858E21561F14E61A6A85280 /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747AA5DBBC684319A8273F2C /* IBMPlexSans-SemiBoldItalic.ttf */; };
-		688D1F3D24858B7900AD21AE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
 		688D1F3F24858B7900AD21AE /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
 		68AD526024857AF900D40926 /* MARULocation+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971724809F5C0091A254 /* MARULocation+ExtensionTests.swift */; };
-		68AD526224857AFC00D40926 /* GeohashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971924809F9C0091A254 /* GeohashTests.swift */; };
-		68AD526324857AFE00D40926 /* Array+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971B24809FB50091A254 /* Array+ExtensionTests.swift */; };
 		68D8970624809AA50091A254 /* Scrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 68D8970524809AA50091A254 /* Scrypt */; };
 		68D8970C24809B4E0091A254 /* MAURLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8970B24809B4E0091A254 /* MAURLocation+Extension.swift */; };
 		68D8970D24809B4E0091A254 /* MAURLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8970B24809B4E0091A254 /* MAURLocation+Extension.swift */; };
@@ -64,11 +60,9 @@
 		68D8971824809F5C0091A254 /* MARULocation+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971724809F5C0091A254 /* MARULocation+ExtensionTests.swift */; };
 		68D8971A24809F9C0091A254 /* GeohashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971924809F9C0091A254 /* GeohashTests.swift */; };
 		68D8971C24809FB50091A254 /* Array+ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8971B24809FB50091A254 /* Array+ExtensionTests.swift */; };
-		68EFB21124856DD6003D84F3 /* Geohash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D8970E24809CEB0091A254 /* Geohash.swift */; };
-		68EFB21324856EC6003D84F3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		68EFB21324856EC6003D84F3 /* Scrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 68EFB21224856EC6003D84F3 /* Scrypt */; };
 		68EFB215248570C2003D84F3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
-		68EFB216248570C2003D84F3 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EFB214248570C2003D84F3 /* Log.swift */; };
-		68EFB21824857A3D003D84F3 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		68EFB21824857A3D003D84F3 /* Scrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 68EFB21724857A3D003D84F3 /* Scrypt */; };
 		7A2281C376904F23BCA10FCA /* IBMPlexSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89D241005D9647C4B0586127 /* IBMPlexSans.ttf */; };
 		8A5B44AA7D724388B70F100B /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36B22BAB357B44949D2E168C /* IBMPlexSans-ExtraLight.ttf */; };
 		8CB0C49FEC0F493D95420B30 /* IBMPlexMono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3053DF05D78949A09366B85D /* IBMPlexMono-ExtraLight.ttf */; };
@@ -128,6 +122,10 @@
 		C5AA24D824768FFF00BA0A99 /* COVIDSafePathsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* COVIDSafePathsTests.m */; };
 		C5C850C7248014F700A494CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C850C6248014F700A494CA /* main.m */; };
 		C5C850CA2480156200A494CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C850C92480156200A494CA /* AppDelegate.m */; };
+		C5EF72212485D0E600AA39D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EF72202485D0E600AA39D5 /* main.m */; };
+		C5EF72222485D0E600AA39D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EF72202485D0E600AA39D5 /* main.m */; };
+		C5EF72232485D0E600AA39D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EF72202485D0E600AA39D5 /* main.m */; };
+		C5EF72242485D0E600AA39D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EF72202485D0E600AA39D5 /* main.m */; };
 		D43E27B6F1E045D798270A11 /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4904B061CC24439783E20928 /* IBMPlexSans-SemiBold.ttf */; };
 		D668C3DAB08B4FCBB01E8C2D /* IBMPlexMono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5C8EDCCEFCE4874A747E404 /* IBMPlexMono-Light.ttf */; };
 		D7E714F18C9C4172BC01ADF8 /* IBMPlexMono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF6254720C1D4A3288ECE351 /* IBMPlexMono-SemiBold.ttf */; };
@@ -209,7 +207,6 @@
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1423A22FF9E04F88BEEE42D6 /* IBMPlexSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Thin.ttf"; path = "../shared/assets/fonts/IBMPlexSans-Thin.ttf"; sourceTree = "<group>"; };
 		167DF82F84E242A39CBEB042 /* IBMPlexMono-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexMono-ExtraLightItalic.ttf"; path = "../shared/assets/fonts/IBMPlexMono-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
 		1ACA74BACC8C2004F373876F /* Pods-GPSTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPSTests.staging.xcconfig"; path = "Target Support Files/Pods-GPSTests/Pods-GPSTests.staging.xcconfig"; sourceTree = "<group>"; };
@@ -317,6 +314,7 @@
 		C5C850F8248125A800A494CA /* libBackgroundGeolocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBackgroundGeolocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C850FB24812AAB00A494CA /* GPS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPS-Bridging-Header.h"; sourceTree = "<group>"; };
 		C5CAF9029B3AE69C411463F3 /* Pods-COVIDSafePathsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVIDSafePathsTests.debug.xcconfig"; path = "Target Support Files/Pods-COVIDSafePathsTests/Pods-COVIDSafePathsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5EF72202485D0E600AA39D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6CBA4DBBF104AC1AB920555 /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-BoldItalic.ttf"; path = "../shared/assets/fonts/IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		C840FB7884D64E6FA97ECC2C /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IBMPlexSans-Medium.ttf"; path = "../app/assets/fonts/IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
 		C92C147334A73EA6C87105F3 /* Pods-COVIDSafePaths-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COVIDSafePaths-tvOS.release.xcconfig"; path = "Target Support Files/Pods-COVIDSafePaths-tvOS/Pods-COVIDSafePaths-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -400,7 +398,7 @@
 				C53FD09724719AD1006D3268 /* CoreGraphics.framework in Frameworks */,
 				C53FD09824719AD1006D3268 /* CoreData.framework in Frameworks */,
 				C53FD09924719AD1006D3268 /* Accelerate.framework in Frameworks */,
-				68EFB21324856EC6003D84F3 /* (null) in Frameworks */,
+				68EFB21324856EC6003D84F3 /* Scrypt in Frameworks */,
 				626DB8AB8AF9D02B9E411601 /* libPods-BTE.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,7 +407,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68EFB21824857A3D003D84F3 /* (null) in Frameworks */,
+				68EFB21824857A3D003D84F3 /* Scrypt in Frameworks */,
 				DC5AA89EE2128B33D9D6BE1F /* libPods-BTETests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,11 +539,13 @@
 		13B07FAE1A68108700A75B9A /* COVIDSafePaths */ = {
 			isa = PBXGroup;
 			children = (
+				68D8970A24809B2D0091A254 /* Extension */,
 				C53FD0C324719C25006D3268 /* BTE */,
 				C53FD07C247199A4006D3268 /* GPS */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				C5EF72202485D0E600AA39D5 /* main.m */,
 				68EFB214248570C2003D84F3 /* Log.swift */,
 				B2A58212244CE76C000F39A6 /* Localizable.strings */,
 			);
@@ -666,7 +666,6 @@
 		C53FD07C247199A4006D3268 /* GPS */ = {
 			isa = PBXGroup;
 			children = (
-				68D8970A24809B2D0091A254 /* Extension */,
 				276F786C245B6CB400312927 /* storage */,
 				276F786A245B6C8A00312927 /* bridge */,
 				0835F8902441054900E95AE3 /* RNBackgroundFetch+AppDelegate.m */,
@@ -674,7 +673,6 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB71A68108700A75B9A /* main.m */,
 				C5C850FB24812AAB00A494CA /* GPS-Bridging-Header.h */,
 			);
 			path = GPS;
@@ -764,6 +762,7 @@
 			);
 			name = BTE;
 			packageProductDependencies = (
+				68EFB21224856EC6003D84F3 /* Scrypt */,
 			);
 			productName = COVIDSafePaths;
 			productReference = C53FD0C124719AD1006D3268 /* BTE.app */;
@@ -785,6 +784,7 @@
 			);
 			name = BTETests;
 			packageProductDependencies = (
+				68EFB21724857A3D003D84F3 /* Scrypt */,
 			);
 			productName = COVIDSafePathsTests;
 			productReference = C5AA24E124768FFF00BA0A99 /* BTETests.xctest */;
@@ -1147,6 +1147,7 @@
 				271089B024698720009AC76F /* LocationTests.swift in Sources */,
 				68D8971C24809FB50091A254 /* Array+ExtensionTests.swift in Sources */,
 				00E356F31AD99517003FC87E /* COVIDSafePathsTests.m in Sources */,
+				C5EF72222485D0E600AA39D5 /* main.m in Sources */,
 				68D8971824809F5C0091A254 /* MARULocation+ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1155,6 +1156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EF72212485D0E600AA39D5 /* main.m in Sources */,
 				271881C02461AF76001DE067 /* RealmSecureStorage.swift in Sources */,
 				0835F8922441054A00E95AE3 /* RNBackgroundFetch+AppDelegate.m in Sources */,
 				68EFB215248570C2003D84F3 /* Log.swift in Sources */,
@@ -1165,7 +1167,6 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				68D8970C24809B4E0091A254 /* MAURLocation+Extension.swift in Sources */,
 				276AB15C245291DE00D39B58 /* Location.swift in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				27F9315A2459E2BD00E1024C /* SecureStorageManager.swift in Sources */,
 				276AB157245238E400D39B58 /* SecureStorage.swift in Sources */,
 			);
@@ -1176,9 +1177,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5C850CA2480156200A494CA /* AppDelegate.m in Sources */,
+				C5EF72232485D0E600AA39D5 /* main.m in Sources */,
 				C5C850C7248014F700A494CA /* main.m in Sources */,
-				68EFB216248570C2003D84F3 /* Log.swift in Sources */,
-				68EFB21124856DD6003D84F3 /* Geohash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1186,10 +1186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				688D1F3D24858B7900AD21AE /* Log.swift in Sources */,
-				68AD526224857AFC00D40926 /* GeohashTests.swift in Sources */,
-				68AD526324857AFE00D40926 /* Array+ExtensionTests.swift in Sources */,
 				C5AA24D824768FFF00BA0A99 /* COVIDSafePathsTests.m in Sources */,
+				C5EF72242485D0E600AA39D5 /* main.m in Sources */,
 				68AD526024857AF900D40926 /* MARULocation+ExtensionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1272,7 +1270,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = COVIDSafePathsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1304,7 +1301,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = COVIDSafePathsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1650,7 +1646,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = COVIDSafePathsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1815,7 +1810,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 79Z8HUPGC3;
-				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = COVIDSafePathsTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2479,6 +2473,16 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		68D8970524809AA50091A254 /* Scrypt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68D8970424809AA40091A254 /* XCRemoteSwiftPackageReference "swift-scrypt" */;
+			productName = Scrypt;
+		};
+		68EFB21224856EC6003D84F3 /* Scrypt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68D8970424809AA40091A254 /* XCRemoteSwiftPackageReference "swift-scrypt" */;
+			productName = Scrypt;
+		};
+		68EFB21724857A3D003D84F3 /* Scrypt */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 68D8970424809AA40091A254 /* XCRemoteSwiftPackageReference "swift-scrypt" */;
 			productName = Scrypt;
